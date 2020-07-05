@@ -2,8 +2,7 @@ main {
   align-content: center;
   box-sizing: border-box;
   display: grid;
-  font-family: 'SF Pro Text', 'SF Pro Icons', 'Helvetica Neue', 'Helvetica',
-    'Arial', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   hyphens: auto;
   line-height: 1.65;
   margin: 0 auto;
@@ -41,4 +40,29 @@ pre {
 code:before,
 code:after {
   content: '\`';
+}
+
+.btn-store {
+  color: #777777;
+  min-width: 254px;
+  padding: 12px 20px !important;
+  border-color: #dddddd !important;
+}
+
+.btn-store:focus,
+.btn-store:hover {
+  color: #ffffff !important;
+  background-color: #168eea;
+  border-color: #168eea !important;
+}
+
+.btn-store .btn-label,
+.btn-store .btn-caption {
+  display: block;
+  text-align: left;
+  line-height: 1;
+}
+
+.btn-store .btn-caption {
+  font-size: 24px;
 }
