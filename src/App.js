@@ -1,6 +1,7 @@
 import React from 'react';
 import { useEffect, useState } from 'react';
 import './App.css';
+import logo from "assets/Logo_USMB_web_grand_RVB.png";
 
 function App() {
   const [date, setDate] = useState(null);
@@ -14,7 +15,7 @@ function App() {
   }, []);
   return (
     <main>
-      <img src={require('assets/Logo_USMB_web_grand_RVB.png')} style={{height: 40, marginBottom: 30}}/>
+      <img src={logo} style={{height: 40, marginBottom: 30}}/>
       <h1>Emploi du Temps</h1>
       <h2>
         L3 INFO-?{' '}
