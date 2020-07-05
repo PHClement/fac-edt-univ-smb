@@ -14,42 +14,23 @@ function App() {
   }, []);
   return (
     <main>
-      <h1>Create React App + Go API</h1>
+      <img src={require('assets/Logo_USMB_web_grand_RVB.png')} style={{height: 40, marginBottom: 30}}/>
+      <h1>Emploi du Temps</h1>
       <h2>
-        Deployed with{' '}
-        <a
-          href="https://vercel.com/docs"
-          target="_blank"
-          rel="noreferrer noopener"
-        >
-          Vercel
-        </a>
-        !
+        L3 INFO-?{' '}
       </h2>
-      <p>
-        <a
-          href="https://github.com/vercel/vercel/tree/master/examples/create-react-app"
-          target="_blank"
-          rel="noreferrer noopener"
-        >
-          This project
-        </a>{' '}
-        was bootstrapped with{' '}
-        <a href="https://facebook.github.io/create-react-app/">
-          Create React App
-        </a>{' '}
-        and contains three directories, <code>/public</code> for static assets,{' '}
-        <code>/src</code> for components and content, and <code>/api</code>{' '}
-        which contains a serverless <a href="https://golang.org/">Go</a>{' '}
-        function. See{' '}
-        <a href="/api/date">
-          <code>api/date</code> for the Date API with Go
-        </a>
-        .
-      </p>
       <br />
-      <h2>The date according to Go is:</h2>
-      <p>{date ? date : 'Loading date...'}</p>
+      <h2>Ajout du calendrier automatique</h2>
+      <a href="#" className="btn btn-store">
+        <span className="fa fa-apple fa-3x pull-left"></span>
+        <span className="btn-label">Ajout sur</span>
+        <span className="btn-caption">iOS, MAC</span>
+      </a>
+      <a href="#" className="btn btn-store">
+        <span className="fa fa-android fa-3x pull-left"></span>
+        <span className="btn-label">Ajout sur</span>
+        <span className="btn-caption">Android</span>
+      </a>
     </main>
   );
 }
