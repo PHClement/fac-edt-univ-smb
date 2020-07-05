@@ -28,19 +28,19 @@ function App() {
                 L3 INFO
             </h2>
             <br/>
-            <h2>Ajout du calendrier automatique</h2>
             <div style={{
                 display: 'flex',
-                flexDirection: 'row',
+                marginTop: 20,
+                flexDirection: 'column',
                 justifyContent: 'center',
                 alignItems: 'center'
             }}>
-                <a href="#" className="btn btn-store" style={{marginRight: 10}}>
+                <a href="webcal://ade6-usmb-ro.grenet.fr/jsp/custom/modules/plannings/direct_cal.jsp?resources=4249&projectId=1&calType=ical&login=iCalExport&password=73rosav&lastDate=2030-08-14" className="btn btn-store">
                     <span className="fa fa-apple fa-3x pull-left"></span>
                     <span className="btn-label">Ajout sur</span>
                     <span className="btn-caption">iOS, MAC</span>
                 </a>
-                <a href="#" className="btn btn-store" style={{marginLeft: 10}}>
+                <a href="webcal://ade6-usmb-ro.grenet.fr/jsp/custom/modules/plannings/direct_cal.jsp?resources=4249&projectId=1&calType=ical&login=iCalExport&password=73rosav&lastDate=2030-08-14" className="btn btn-store" style={{marginTop: 10}}>
                     <span className="fa fa-android fa-3x pull-left"></span>
                     <span className="btn-label">Ajout sur</span>
                     <span className="btn-caption">Android</span>
