@@ -35,15 +35,20 @@ function App() {
                 justifyContent: 'center',
                 alignItems: 'center'
             }}>
-                <a href="webcal://ade6-usmb-ro.grenet.fr/jsp/custom/modules/plannings/direct_cal.jsp?resources=4249&projectId=1&calType=ical&login=iCalExport&password=73rosav&lastDate=2030-08-14" className="btn btn-store">
+                <a href="webcal://ade6-usmb-ro.grenet.fr/jsp/custom/modules/plannings/direct_cal.jsp?resources=4249&projectId=2&calType=ical&login=iCalExport&password=73rosav&lastDate=2030-08-14" className="btn btn-store">
                     <span className="fa fa-apple fa-3x pull-left"></span>
-                    <span className="btn-label">Ajout sur</span>
-                    <span className="btn-caption">iOS, MAC</span>
+                    <span className="btn-label">Ajout</span>
+                    <span className="btn-caption">INFO-1</span>
                 </a>
-                <a href="webcal://ade6-usmb-ro.grenet.fr/jsp/custom/modules/plannings/direct_cal.jsp?resources=4249&projectId=1&calType=ical&login=iCalExport&password=73rosav&lastDate=2030-08-14" className="btn btn-store" style={{marginTop: 10}}>
-                    <span className="fa fa-android fa-3x pull-left"></span>
-                    <span className="btn-label">Ajout sur</span>
-                    <span className="btn-caption">Android</span>
+                <a href="webcal://ade6-usmb-ro.grenet.fr/jsp/custom/modules/plannings/direct_cal.jsp?resources=4250&projectId=2&calType=ical&login=iCalExport&password=73rosav&lastDate=2030-08-14" className="btn btn-store">
+                    <span className="fa fa-apple fa-3x pull-left"></span>
+                    <span className="btn-label">Ajout</span>
+                    <span className="btn-caption">INFO-2</span>
+                </a>
+                <a href="webcal://ade6-usmb-ro.grenet.fr/jsp/custom/modules/plannings/direct_cal.jsp?resources=2334&projectId=2&calType=ical&login=iCalExport&password=73rosav&lastDate=2030-08-14" className="btn btn-store">
+                    <span className="fa fa-apple fa-3x pull-left"></span>
+                    <span className="btn-label">Ajout</span>
+                    <span className="btn-caption">INFO-3</span>
                 </a>
             </div>
         </div>
